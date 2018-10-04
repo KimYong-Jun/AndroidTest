@@ -5,4 +5,10 @@
     <string name="change">값 체인지</string>
     <string name="calcTitle">계산기</string>
     <string name="menuTitle">Menu</string>
+    <string name="playerTitle">플레이어</string>
+    <string name="musicTitle1">취기를 빌려-새봄</string>
+    <string name="musicTitle2">널 생각해-one more chance</string>
+    <string name="pause">일시정지</string>
+    <string name="play">재생</string>
+    <string name="stop">정지</string>
 </resources>

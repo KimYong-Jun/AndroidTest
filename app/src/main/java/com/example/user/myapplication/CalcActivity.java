@@ -17,7 +17,7 @@ public class CalcActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
-        getSupportActionBar().setTitle(R.string.calcTitle);
+        setTitle(R.string.calcTitle);
 
         _init();
     }
@@ -48,7 +48,6 @@ public class CalcActivity extends AppCompatActivity {
         int intV1 = inParesFromString(v1);
         int intV2 = inParesFromString(v2);
 
-        int intResult = 0;
         switch (calcSig){
             case "+" :
                 result = Integer.toString(intV1 + intV2);

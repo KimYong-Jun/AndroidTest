@@ -5,12 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".PlayerActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="플레이어"
+    <Button style="@style/Player_btn"
+        android:id="@+id/bt_music1"
+      android:text="@string/musicTitle1"
         />
-
+    <Button style="@style/Player_btn"
+        android:id="@+id/bt_music2"
+       android:text="@string/musicTitle2"
+        />
+    <Button style="@style/Player_btn"
+        android:id="@+id/bt_pause"
+        android:text="@string/pause"
+        />
+    <Button style="@style/Player_btn"
+        android:id="@+id/bt_stop"
+       android:text="@string/stop"
+        />
 </LinearLayout>

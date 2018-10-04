@@ -46,4 +46,12 @@
         <item name="android:textSize">30sp</item>
         <item name="android:onClick">bt_sig</item>
     </style>
+    <!-- 플레이어 버튼-->
+    <style name="Player_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">playerBtn</item>
+    </style>
 </resources>

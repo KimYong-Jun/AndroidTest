@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalcActivity">
+    <!-- 상단 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText style="@style/Calc_top_ratio"
+            android:maxLength="4"
+            android:id="@+id/et_no1"
+            />
+
+        <TextView style="@style/Calc_top_between"
+            android:id="@+id/tv_sig"
+            />
+
+        <EditText style="@style/Calc_top_ratio"
+            android:maxLength="4"
+            android:id="@+id/et_no2"
+            />
+
+        <TextView style="@style/Calc_top_between"
+            android:text="="
+            />
+
+        <TextView style="@style/Calc_top_ratio"
+            android:maxLength="15"
+            android:id="@+id/tv_res"
+            />
+
+    </LinearLayout>
+
+    <!-- 하단 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <!-- 숫자버튼 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/Calc_middle_ratio">
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="7"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="8"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="9"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Calc_middle_ratio">
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="4"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="5"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="6"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Calc_middle_ratio">
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="1"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="2"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:text="3"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Calc_middle_ratio">
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:id="@+id/bt_0"
+                    android:text="0"
+                    />
+
+                <Button style="@style/Calc_middle_layout_btn"
+                    android:id="@+id/bt_equ"
+                    android:layout_weight="2"
+                    android:text="="
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- 기호 버튼 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button style="@style/Calc_middle_sign_btn"
+                android:text="c"
+                />
+
+            <Button style="@style/Calc_middle_sign_btn"
+                android:text="/"
+                />
+
+            <Button style="@style/Calc_middle_sign_btn"
+                android:text="*"
+                />
+
+            <Button style="@style/Calc_middle_sign_btn"
+                android:text="-"
+                />
+
+            <Button style="@style/Calc_middle_sign_btn"
+                android:text="+"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -36,5 +36,5 @@
             android:id="@+id/bt_player"
             />
     </LinearLayout>
-    </RelativeLayout>
+    </RelativeLayout> 
 </LinearLayout>

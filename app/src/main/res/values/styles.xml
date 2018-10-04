@@ -8,4 +8,42 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- 상단 1:1:1 비율 -->
+    <style name="Calc_top_ratio">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- 상단 기호 부분 -->
+    <style name="Calc_top_between">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <!-- 중간 레이아웃 비율 -->
+    <style name="Calc_middle_ratio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 중간 레이아웃 숫자 버튼-->
+    <style name="Calc_middle_layout_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">bt_no</item>
+    </style>
+    <!-- 중간 레이아웃 기호 버튼-->
+    <style name="Calc_middle_sign_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>s
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">bt_sig</item>
+    </style>
 </resources>
